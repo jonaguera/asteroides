@@ -24,5 +24,9 @@
     <style name="TextoAsteroides.Botones">
         <item name="android:padding">12sp</item>
     </style>
+    <style name="TemaAsteroides" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:textSize">22sp</item>
+    </style>
+    
 
 </resources>
