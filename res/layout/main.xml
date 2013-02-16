@@ -31,10 +31,11 @@
         android:text="@string/configure" />
 
     <Button
-        style="@style/TextoAsteroides.Botones"
         android:id="@+id/button3"
+        style="@style/TextoAsteroides.Botones"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:onClick="lanzarAcercaDe"
         android:text="@string/about" />
 
     <Button

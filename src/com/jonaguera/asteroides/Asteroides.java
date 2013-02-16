@@ -1,10 +1,12 @@
 package com.jonaguera.asteroides;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
-public class Localizacion extends Activity {
+public class Asteroides extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +20,12 @@ public class Localizacion extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+    public void lanzarAcercaDe(View view){
+
+        Intent i = new Intent(this, AcercaDe.class);
+
+              startActivity(i);
+
+      }
 
 }
