@@ -18,28 +18,28 @@
 
     <Button
         style="@style/TextoAsteroides.Botones"
-        android:id="@+id/button1"
+        android:id="@+id/play"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/play" />
 
     <Button
+        android:id="@+id/config"
         style="@style/TextoAsteroides.Botones"
-        android:id="@+id/button2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/configure" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/about"
         style="@style/TextoAsteroides.Botones"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/about" />
 
     <Button
+        android:id="@+id/records"
         style="@style/TextoAsteroides.Botones"
-        android:id="@+id/button4"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/exit" />
